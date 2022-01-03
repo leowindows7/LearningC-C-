@@ -1,0 +1,26 @@
+#error
+story-step1 nosuchfile.txt
+story-step1 s_wronblank.txt
+story-step2 nosuchfile.txt
+story-step2 w_misscolo.txt
+story-step3 words.txt story.txt toomanyArgs
+story-step3 words.txt s_toomanyusedword.txt
+story-step3 w_weirdwords.txt s_weirdstory.txt
+story-step3 words.txt s_catnotexist.txt
+story-step4 nosuchfile.txt nosuchfile.txt
+story-step4 -n words.txt s_overdeduct.txt
+story-step4 notEngoughArgs
+story-step4 -n words.txt s_duplicate.txt
+
+#success
+story-step1 story.txt
+story-step1 story2.txt
+story-step2 words.txt
+story-step3 words.txt story2.txt
+story-step3 words.txt s_diffline.txt
+story-step4 words.txt story2.txt
+story-step4 -n words.txt story2.txt
+story-step1 s_weirdstory.txt
+story-step2 w_weirdwords.txt
+story-step4 words.txt s_overdeduct.txt
+

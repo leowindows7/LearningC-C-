@@ -1,0 +1,43 @@
+#error
+cyoa-step1 test1/noSuchFile.txt
+cyoa-step1 test1/noHash.txt
+cyoa-step1 test1/noColon.txt
+cyoa-step1 test1/oddPlay.txt
+cyoa-step1 test1/oddWin.txt
+cyoa-step1 test1/oddLose.txt
+cyoa-step2 notADir
+cyoa-step3 noWin
+cyoa-step4 noLose
+cyoa-step2 unlinkedStory
+cyoa-step3 noPage1
+cyoa-step2 /usr/local/ece551/cyoa/broken1
+cyoa-step2 /usr/local/ece551/cyoa/broken2
+cyoa-step3 /usr/local/ece551/cyoa/broken1
+cyoa-step3 /usr/local/ece551/cyoa/broken2
+cyoa-step4 /usr/local/ece551/cyoa/broken1
+cyoa-step4 /usr/local/ece551/cyoa/broken2
+
+
+#success
+cyoa-step3 /usr/local/ece551/cyoa/story1
+cyoa-step4 /usr/local/ece551/cyoa/story1
+cyoa-step3 /usr/local/ece551/cyoa/story2
+cyoa-step4 /usr/local/ece551/cyoa/story2
+cyoa-step2 story2 < test1/input4.txt
+cyoa-step3 /usr/local/ece551/cyoa/cycle
+cyoa-step4 /usr/local/ece551/cyoa/cycle
+cyoa-step3 /usr/local/ece551/cyoa/story-diamond-win
+cyoa-step4 /usr/local/ece551/cyoa/story-diamond-win
+cyoa-step2 story2 < test1/input.txt
+cyoa-step2 story2 < test1/input2.txt
+cyoa-step2 story2 < test1/input3.txt
+cyoa-step2 myStory < test1/input.txt
+cyoa-step3 myStory
+cyoa-step4 myStory
+cyoa-step3 unWinnable
+cyoa-step4 unWinnable
+cyoa-step3 indeCycle
+cyoa-step4 indeCycle
+cyoa-step3 doubleCycle
+cyoa-step4 doubleCycle
+

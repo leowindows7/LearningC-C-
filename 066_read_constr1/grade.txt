@@ -1,0 +1,10 @@
+Grading at 10/13/2021:17:52:02.603148
+For commit ID 25e6dae2ee8d8655639580cfc10ca0654277d85c
+Grading at Wed Oct 13 13:52:02 EDT 2021
+Attempting to compile:
+gcc -o code -pedantic -Wall -Werror code.cpp -lstdc++
+Your Makefile produced a binary called 'code'
+Your file matched the expected output
+Your output matched what we expected
+
+Overall Grade: PASSED
